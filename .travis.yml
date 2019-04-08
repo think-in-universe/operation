@@ -2,18 +2,12 @@ language: python
 python:
   - '3.6'
 
-before_install:
-  -
-
 install:
   - 'pip install pipenv'
   - bash scripts/_install.sh
 
 script:
   - bash scripts/_daily.sh
-
-# after_success:
-  # - bash scripts/_deploy_to_staging.sh
 
 branches:
   only:
