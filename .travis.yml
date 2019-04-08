@@ -22,4 +22,4 @@ branches:
 cache:
   packages: yes
   directories:
-    - $HOME/.local/share/virtualenvs
+    - $HOME/virtualenvs
