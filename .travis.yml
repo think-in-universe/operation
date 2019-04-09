@@ -7,7 +7,7 @@ install:
   - bash scripts/_install.sh
 
 script:
-  - travis_wait 45 bash scripts/_daily.sh
+  - bash scripts/_daily.sh
 
 branches:
   only:
