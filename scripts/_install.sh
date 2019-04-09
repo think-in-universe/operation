@@ -8,4 +8,4 @@ set -e
 git clone -b fix_ssl_error --depth 5 https://${GITHUB_PAT}@github.com/${DEPLOYMENT_REPO}.git build
 cd build
 
-pipenv install
+pipenv install --pypi-mirror https://pypi.python.org/simple
