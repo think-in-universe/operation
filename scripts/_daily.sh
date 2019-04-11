@@ -6,4 +6,4 @@ set -e
 [ "${TRAVIS_BRANCH}" != "darkblue" ] && exit 0
 
 cd build
-pipenv run invoke wrangler.missing -t cn -l 1000
+pipenv run invoke wrangler.missing -t cn -l 2000
