@@ -6,4 +6,4 @@ set -e
 [ "${TRAVIS_BRANCH}" != "dark-1" ] && exit 0
 
 cd build
-pipenv run invoke wrangler.search -t cn -l 200
+pipenv run invoke wrangler.wander
