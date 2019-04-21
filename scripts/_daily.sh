@@ -6,4 +6,4 @@ set -e
 [ "${TRAVIS_BRANCH}" != "debug" ] && exit 0
 
 cd build
-pipenv run invoke wrangler.rewards --debug
+pipenv run invoke wrangler.analyze-reports -d 10 --debug
