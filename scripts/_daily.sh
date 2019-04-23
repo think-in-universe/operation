@@ -6,4 +6,4 @@ set -e
 [ "${TRAVIS_BRANCH}" != "debug" ] && exit 0
 
 cd build
-pipenv run invoke wrangler.wander
+pipenv run invoke wrangler.wander --debug
