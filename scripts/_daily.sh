@@ -3,7 +3,7 @@
 set -e
 
 [ -z "${GITHUB_PAT}" ] && exit 0
-[ "${TRAVIS_BRANCH}" != "shadow" ] && exit 0
+[ "${TRAVIS_BRANCH}" != "wisdom" ] && exit 0
 
 cd build
-pipenv run invoke steemstem.read
+pipenv run invoke steem-guides.read
