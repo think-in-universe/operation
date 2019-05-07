@@ -11,7 +11,7 @@ script:
 
 branches:
   only:
-    - dark-16
+    - dark-15
 
 cache:
   packages: yes
