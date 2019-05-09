@@ -3,7 +3,7 @@
 set -e
 
 [ -z "${GITHUB_PAT}" ] && exit 0
-[ "${TRAVIS_BRANCH}" != "light" ] && exit 0
+[ "${TRAVIS_BRANCH}" != "dawn" ] && exit 0
 
 cd build
-pipenv run invoke cn-curation.read
+pipenv run invoke cn-hello.read -d 3 --debug

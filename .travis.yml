@@ -11,7 +11,7 @@ script:
 
 branches:
   only:
-    - light
+    - dawn
 
 cache:
   packages: yes
