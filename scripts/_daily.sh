@@ -6,4 +6,4 @@ set -e
 [ "${TRAVIS_BRANCH}" != "dawn" ] && exit 0
 
 cd build
-pipenv run invoke cn-hello.read -d 3 --debug
+pipenv run invoke cn-hello.welcome -d 3 --debug
