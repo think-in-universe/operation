@@ -7,3 +7,4 @@ set -e
 
 cd build
 pipenv run invoke cn-hello.welcome -d 3 --debug
+pipenv run invoke cn-hello.summarize -d 3 --debug
