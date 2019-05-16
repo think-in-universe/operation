@@ -6,8 +6,8 @@ install:
   - 'pip install pipenv'
   - bash scripts/_install.sh
 
-script:
-  - bash scripts/_daily.sh
+# script:
+#   - bash scripts/_daily.sh
 
 branches:
   only:
